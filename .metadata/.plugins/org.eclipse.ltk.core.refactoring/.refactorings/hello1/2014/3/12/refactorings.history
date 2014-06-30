@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;hello1.Trigger1&apos; to &apos;SimpleTrigger1&apos;&#x0D;&#x0A;- Original project: &apos;hello1&apos;&#x0D;&#x0A;- Original element: &apos;hello1.Trigger1&apos;&#x0D;&#x0A;- Renamed element: &apos;hello1.SimpleTrigger1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Trigger1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;hello1{Trigger1.java[Trigger1" matchStrategy="1" name="SimpleTrigger1" qualified="false" references="true" similarDeclarations="false" stamp="1395390929879" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,18 @@
+package com.bjethwan;
+import org.quartz.Job;
+import org.quartz.JobDataMap;
+import org.quartz.JobExecutionContext;
+import org.quartz.JobExecutionException;
+import org.quartz.JobKey;
+
+public class TestJob implements Job{
+	public void execute(JobExecutionContext context) throws JobExecutionException {
+		
+		JobKey jobKey = context.getJobDetail().getKey();
+		JobDataMap jobDataMap = context.getJobDetail().getJobDataMap();
+		
+		String name = jobDataMap.getString("name");
+		
+		System.out.println("Hello Quartz!");	
+	}
+}

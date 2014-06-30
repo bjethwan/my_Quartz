@@ -1,0 +1,9 @@
+package test;
+
+import java.io.UnsupportedEncodingException;
+
+public class Test {
+public static void main(String[] args) throws Exception {
+	System.out.println("\"Password@123\"".getBytes("UTF-16LE"));
+}
+}

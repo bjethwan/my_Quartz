@@ -1,0 +1,18 @@
+package com.bjethwan;
+import org.quartz.Job;
+import org.quartz.JobDataMap;
+import org.quartz.JobExecutionContext;
+import org.quartz.JobExecutionException;
+import org.quartz.JobKey;
+
+/*
+ * Quartz always creates a new Job object to call its execute method.
+ * You got to use JobDataMap to store any state infromation or config settings.
+ */
+public class TestJob implements Job
+{	
+	public void execute(JobExecutionContext context) throws JobExecutionException {
+		
+		System.out.println("Hello Quartz!");	
+	}
+}
